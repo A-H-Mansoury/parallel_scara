@@ -9,6 +9,7 @@ This repository contains tools and websites I used to build this robot and fix p
 - 2 drv8825
 - 4 plastic connect strip 12cm
 - 2 plastic connect strip 7cm
+- some screws and nuts
 
 
 ## Development Environment
