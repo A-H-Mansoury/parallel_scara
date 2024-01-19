@@ -31,8 +31,12 @@ STM32
 - (https://sisoog.com/category/microcontroller/stm32/%D8%AA%D9%88%D8%A7%D8%A8%D8%B9-hal/)
 
 ## Bugs and Fixs
-### keil
+
+Keil
+
 - SWDIO no target connected
 (https://community.st.com/t5/stm32-mcus-products/keil-swdio-no-target-connected/m-p/341236/highlight/true#M84452)
-### cubemx
-### coppelia sim
+
+STM32CubeMx
+
+CoppeliaSim
