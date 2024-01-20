@@ -41,7 +41,9 @@ Keil
   * timer PWM and manipulation of duty cycle
   * timer interupt and toggleing GPIO
   * GPIO toggle and delay
-  for this project specific need that is precise position rather than accurate speed profile. It seems the latter approach is the best because it simplifys the control algorithm and avoids complicated conditions on timers to accurately send step pulses
+
+for this project specific need that is precise position rather than accurate speed profile. It seems the latter approach is the best because it simplifys the control algorithm and avoids complicated conditions on timers to accurately send step pulses.
+
 - the drv8825 does not work unless pull up the sleep and reset pins
 - ac/dc adaptors mmight not be accurate
 
