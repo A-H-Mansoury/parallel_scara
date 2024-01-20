@@ -37,6 +37,16 @@ Keil
 - SWDIO no target connected
 (https://community.st.com/t5/stm32-mcus-products/keil-swdio-no-target-connected/m-p/341236/highlight/true#M84452)
 
+- Amongst 3 choices for drv8845 step pulse
+  * timer PWM and manipulation of duty cycle
+  * timer interupt and toggleing GPIO
+  * GPIO toggle and delay
+  for this project specific need that is precise position rather than accurate speed profile. It seems the latter approach is the best because it simplifys the control algorithm and avoids complicated conditions on timers to accurately send step pulses
+- the drv8825 does not work unless pull up the sleep and reset pins
+- ac/dc adaptors mmight not be accurate
+
 STM32CubeMx
 
 CoppeliaSim
+
+Electrical
