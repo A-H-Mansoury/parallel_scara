@@ -20,15 +20,22 @@ configure bluepill header board
 - [keil](https://www.keil.com)
 Programming IDE
 
+## Development proccess
+###Inverse kinematics
+I used the solution proposed in  for inverse kinematics.
+Then, I created a simulation of robot to attest forward kinmatics and choose motors base on the needed torque.
+To attest inverse kinematic, I use python script to generate inverse kinematic and connect the python script to CoppeliaSim.
+
 
 ## Resources
 
 CoppeliaSim
-- (https://youtube.com/playlist?list=PLjzuoBhdtaXOoqkJUqhYQletLLnJP8vjZ&si=S4ka2eGPEegMdhhC)
-- (https://manual.coppeliarobotics.com/)
+- [Complete CoppeliaSim Tutorial](https://youtube.com/playlist?list=PLjzuoBhdtaXOoqkJUqhYQletLLnJP8vjZ&si=S4ka2eGPEegMdhhC)
+- [CoppeliaSim Documentaion](https://manual.coppeliarobotics.com/)
+- [Connect python to CoppeliaSim](https://www.youtube.com/watch?v=TGT7KbP7Dfs) 
 
 STM32
-- (https://sisoog.com/category/microcontroller/stm32/%D8%AA%D9%88%D8%A7%D8%A8%D8%B9-hal/)
+- [Complete STM32 programming with HAL tutorial](https://sisoog.com/category/microcontroller/stm32/%D8%AA%D9%88%D8%A7%D8%A8%D8%B9-hal/)
 
 ## Bugs and Fixs
 
