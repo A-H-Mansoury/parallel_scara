@@ -25,7 +25,8 @@ Programming IDE
 I used the solution proposed in  for inverse kinematics.
 Then, I created a simulation of robot to attest forward kinmatics and choose motors base on the needed torque.
 To attest inverse kinematic, I use python script to generate inverse kinematic and connect the python script to CoppeliaSim.
-
+the inverse kinematics is borrowed from [A method for optimal kinematic design of five-bar planar parallel
+manipulators](https://www.researchgate.net/publication/271456154_A_method_for_optimal_kinematic_design_of_five-bar_planar_parallel_manipulators?enrichId=rgreq-e05d64d5ab9bd540445867751f7cc126-XXX&enrichSource=Y292ZXJQYWdlOzI3MTQ1NjE1NDtBUzo1MTY5NjUyMDAxNDIzMzdAMTUwMDI2NTUxNjk0Mw%3D%3D&el=1_x_3&_esc=publicationCoverPdf) just in the impelementation atan2 is used to avoid zero division error.
 
 ## Resources
 
